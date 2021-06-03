@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,7 +21,7 @@
         </nav>
 
         <p class="big-title translate" data-speed="0.1">I Bring <span style="display: block;">Exciting Projects</span> To Life.</p>
-        <a href="#works" class="view-work translate" data-speed="0.1">View My Works</a>
+        <a href="#works" class="view-work translate" data-speed="0.1">Check out My Works</a>
         
         <img src="img/person.png" class="person translate" data-speed="-0.25" alt="">
         <img src="img/mountain1.png" class="mountain1 translate" data-speed="-0.2" alt="">
@@ -30,7 +32,7 @@
 
     <section id="works">
         <div class="shadow"></div>
-        <h3 class="works opacity">MY WORKS</h3>
+        <h3 class="section_title opacity">MY WORKS</h3>
         <div class="container"> 
             <div class="imgContainer opacity">
                 <img src="img/image.jpg" alt="">
@@ -40,7 +42,7 @@
                     Jungle
                     <div class="border"></div>
                 </h3>
-                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.</p>
+                <p class="text">Jungle is a mini e-commerce application built with Rails 4.2, PostgreSQL, and use the Stripe deal with credit card payments.</p>
                 <br>
                 <a href="" class="link" style="color: #0095ff">Source Code</a>
                 <a href="" class="link">View Live Site</a>
@@ -52,7 +54,7 @@
             </div>         
             <div class="content opacity reverse">
                 <h3 class="title">
-                    Jungle
+                    Chatty App
                     <div class="border border2"></div>
                 </h3>
                 <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.</p>
@@ -68,7 +70,7 @@
             </div>        
             <div class="content opacity">
                 <h3 class="title">
-                    Jungle
+                    Scheduler
                     <div class="border border3"></div>
                 </h3>
                 <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.</p>
@@ -76,9 +78,48 @@
                 <a href="" class="link" style="color: #0095ff">Source Code</a>
                 <a href="" class="link">View Live Site</a>
             </div>
-        </div>         
+        </div>
+        <div class="shadow2"></div>         
     </section>
-    
+    <section id="about">
+        <h3 class="section_title">Let Me Introduce Myself</h3>
+        <div class="container" style="grid-template-columns: 300px auto;"> 
+            <div class="imgContainer">
+                <img src="img/personal_pic.jpg" alt="" style="border-radius: 50%; width: 250px;">
+            </div>        
+            <div class="content">
+                <p class="intro_text hey">Hey</p>
+                <p class="intro_title">I AM CHUN</p>
+                <p class="intro_small_text">I am a Full-Stack Developer located in Canada and I have a serious passion for bringing great project ideas to life.</p>
+                <p class="intro_small_text">Well-organised person, problem solver, independent employee with high attention to detail. Seriously, I have break the record of problem-solving rate in the company that I worked for.</p>
+                <p class="intro_small_text">Interested in working on ambitious projects with positive people.</p>
+                <a href="#" class="intro_small_text contact_link">Let's make something special.</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="" class="download_cv">Download My CV</a>
+            </div>
+        </div>
+        <div class="container" style="grid-template-columns: 300px auto;"> 
+            <div class="content">
+               <p class="intro_title">I AM Farmilar With:</p>
+            </div>        
+            <div class="imgContainer">
+                <div>
+                    <img src="img/javascript.png" alt="" class="skill_img">
+                    <img src="img/html.png" alt="" class="skill_img">
+                    <img src="img/css.png" alt="" class="skill_img">
+                </div>
+                <div>
+                    <img src="img/java.png" alt="" class="skill_img">
+                    <img src="img/python.png" alt="" class="skill_img">
+                    <img src="img/rails.png" alt="" class="skill_img">
+                    <img src="img/react.png" alt="" class="skill_img">
+                </div>              
+            </div>
+        </div>
+    </section>
     <script src="app.js"></script>
 </body>
 </html>
