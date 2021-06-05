@@ -107,56 +107,7 @@ nav .container{
 .logo span{
     font-weight: 300;
 }
-/*
-.hamburger-menu{
-    width: 1.55rem;
-    height: 1.5rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
 
-.bar{
-    position: relative;
-    width: 1.2rem; 
-    height: 3px;
-    background-color: #fff;
-    border-radius: 2px;
-}
-
-.bar:before, .bar:after{
-    content: '';
-    position: absolute;
-    width: 1.55rem;
-    height: 3px;
-    right: 0;
-    background-color: #fff;
-    border-radius: 2px;
-}
-
-.bar:before{
-    transform: translateY(-8px);
-}
-
-.bar:after{
-    transform: translateY(8px);
-}
-
-
-.toggle{
-    right: 0;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background: url(img/menu.png);
-    background-size: 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    z-index: 10000;
-}
-*/
 .toggle
 {
     position: fixed;
@@ -325,7 +276,6 @@ section .container > *{
     left: 40%;
     border-top: 3px solid red;
 }
-
 
 a.link{
     color: #fff;
