@@ -659,7 +659,7 @@ a.download_cv:hover:after{
         font-size: 12px;
     }
     .contact_section::before{
-        transform: translate(-300px, -180px);
+        transform: translate(-300px, -100px);
     }
     .contact_section::after{
         transform: translate(300px, 180px);

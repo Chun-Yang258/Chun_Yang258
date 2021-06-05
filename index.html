@@ -20,9 +20,9 @@
                 <div class="toggle"></div>
                 <ul class="navigation">
                     <li><a href="#" style="--i:0;">HOME</a></li>
-                    <li><a href="#" style="--i:1;">WORKS</a></li>
-                    <li><a href="#" style="--i:2;">ABOUT</a></li>
-                    <li><a href="#" style="--i:3;">CONTACT</a></li>
+                    <li><a href="#works" style="--i:1;">WORKS</a></li>
+                    <li><a href="#about" style="--i:2;">ABOUT</a></li>
+                    <li><a href="#contact" style="--i:3;">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
@@ -128,7 +128,7 @@
         </div>
     </section>
     <section id="contact" class="contact_section">
-        <div class="contact-form">
+        <form class="contact-form" action="https://app.99inbound.com/api/e/8GZy1UA8" method="POST" target="_blank">
             <h2>Let's Talk</h2>
         
             <div class="row100">
@@ -143,14 +143,14 @@
             <div class="row100">
                 <div class="col">
                     <div class="inputBox">
-                        <input type="text" name="name" required="required">
+                        <input type="text" name="email" required="required">
                         <span class="text">Email</span>
                         <span class="line"></span>
                     </div>
                 </div>
                 <div class="col">
                     <div class="inputBox">
-                        <input type="text" name="name" required="required">
+                        <input type="text" name="phone" required="required">
                         <span class="text">Mobile</span>
                         <span class="line"></span>
                     </div>
@@ -160,7 +160,7 @@
             <div class="row100">
                 <div class="col">
                     <div class="inputBox textarea">
-                        <textarea name="" required="required"></textarea>
+                        <textarea name="message" required="required"></textarea>
                         <span class="text">Type Your Message Here...</span>
                         <span class="line"></span>
                     </div>
@@ -171,7 +171,10 @@
                     <input type="submit" value="send">
                 </div>
             </div>
-        </div>
+            <div style="position: absolute; left: -5000px;">
+                <input type="checkbox" name="sugarfilled_sunshine_waved_wolverine" value="1" tabindex="-1" autocomplete="no">
+              </div>
+        </form>
     </section>
     <script src="app.js"></script>
 </body>
