@@ -15,6 +15,15 @@ const border3 = document.querySelector(".border3");
 let header_height = header.offsetHeight;
 let section_height = section.offsetHeight;
 
+
+const menuToggle = document.querySelector(".toggle");
+const navigation = document.querySelector(".navigation");
+menuToggle.addEventListener("click", function(){
+    menuToggle.classList.toggle("active");
+    navigation.classList.toggle("active");
+})
+    
+
 window.addEventListener('scroll', () => {
     let scroll = window.pageYOffset;
     let sectionY = section.getBoundingClientRect();
